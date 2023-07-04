@@ -28,7 +28,7 @@ namespace dotnet_api_test.Controllers
         {
 			var dishes = _mapper.Map<ReadDishDto[]>(_dishRepository.GetAllDishes());
 
-			if (dishes.Length == 0)
+            if (dishes.Length == 0)
 			{
 				throw new NotFoundRequestExceptionResponse($"No Dishes found in database");
 			}
@@ -90,7 +90,6 @@ namespace dotnet_api_test.Controllers
 
 			return Ok(_mapper.Map<ReadDishDto>(dishToUpdate));
         }
-
         [HttpDelete]
         [Route("{id}")]
         public ActionResult DeleteDishById(int id)
