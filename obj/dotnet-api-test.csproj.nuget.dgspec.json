@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danielpersson/Insync/persson.daniel.1990@gmail.com/Google Drive/FrontEdgeIT/educationprogram/dotnet-api-test/dotnet-api-test.csproj": {}
+    "C:\\Users\\sandy\\Documents\\GitHub\\ApiStarterTest\\dotnet-api-test.csproj": {}
   },
   "projects": {
-    "/Users/danielpersson/Insync/persson.daniel.1990@gmail.com/Google Drive/FrontEdgeIT/educationprogram/dotnet-api-test/dotnet-api-test.csproj": {
+    "C:\\Users\\sandy\\Documents\\GitHub\\ApiStarterTest\\dotnet-api-test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielpersson/Insync/persson.daniel.1990@gmail.com/Google Drive/FrontEdgeIT/educationprogram/dotnet-api-test/dotnet-api-test.csproj",
+        "projectUniqueName": "C:\\Users\\sandy\\Documents\\GitHub\\ApiStarterTest\\dotnet-api-test.csproj",
         "projectName": "dotnet-api-test",
-        "projectPath": "/Users/danielpersson/Insync/persson.daniel.1990@gmail.com/Google Drive/FrontEdgeIT/educationprogram/dotnet-api-test/dotnet-api-test.csproj",
-        "packagesPath": "/Users/danielpersson/.nuget/packages/",
-        "outputPath": "/Users/danielpersson/Insync/persson.daniel.1990@gmail.com/Google Drive/FrontEdgeIT/educationprogram/dotnet-api-test/obj/",
+        "projectPath": "C:\\Users\\sandy\\Documents\\GitHub\\ApiStarterTest\\dotnet-api-test.csproj",
+        "packagesPath": "C:\\Users\\sandy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sandy\\Documents\\GitHub\\ApiStarterTest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/danielpersson/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sandy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +68,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -73,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

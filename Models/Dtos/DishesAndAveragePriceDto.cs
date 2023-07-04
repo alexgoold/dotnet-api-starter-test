@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace dotnet_api_test.Models.Dtos
 {
     public class DishesAndAveragePriceDto

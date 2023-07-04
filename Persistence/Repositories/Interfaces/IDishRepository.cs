@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace dotnet_api_test.Persistence.Repositories.Interfaces
 {
     public interface IDishRepository

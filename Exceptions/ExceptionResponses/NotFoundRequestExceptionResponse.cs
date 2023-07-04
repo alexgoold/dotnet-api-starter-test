@@ -1,5 +1,3 @@
-using Microsoft.AspNetCore.Http;
-
 namespace dotnet_api_test.Exceptions.ExceptionResponses
 {
     public class NotFoundRequestExceptionResponse : HttpExceptionResponse

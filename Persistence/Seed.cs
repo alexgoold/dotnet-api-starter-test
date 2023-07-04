@@ -1,8 +1,3 @@
-using System;
-using System.Linq;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-
 namespace dotnet_api_test.Persistence
 {
     public static class Seed

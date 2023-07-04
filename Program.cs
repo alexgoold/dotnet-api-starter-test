@@ -1,12 +1,8 @@
-using System;
 using dotnet_api_test.Exceptions;
 using dotnet_api_test.Persistence;
 using dotnet_api_test.Persistence.Repositories;
 using dotnet_api_test.Persistence.Repositories.Interfaces;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);

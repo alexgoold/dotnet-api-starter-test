@@ -1,5 +1,3 @@
-using System;
-
 namespace dotnet_api_test.Exceptions.ExceptionResponses
 {
     public class HttpExceptionResponse : Exception
