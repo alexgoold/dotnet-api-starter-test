@@ -56,7 +56,7 @@ namespace dotnet_api_test.Controllers
             ModelValidation.ValidateCreateDishDto(createDishDto);
             if (_dishRepository.GetAllDishes().Where(d => d.Name == createDishDto.Name).ToList().Count > 0)
             {
-				_logger.LogWarning($"Dish with name: {createDishDto.Name} already exists");
+				_logger.LogWarning($"{DateTime.Now}: Dish with name: {createDishDto.Name} already exists");
 				throw new BadRequestExceptionResponse("Dish with this name already exists");
 			}
             _dishRepository.CreateDish(_mapper.Map<Dish>(createDishDto));
